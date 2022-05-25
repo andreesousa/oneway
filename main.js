@@ -38,15 +38,5 @@ ScrollReveal({
 #be-one a`);
 
 
-/*CARROUSEL MEMBROS*/ 
-const carousel = document.querySelector('.carrocel-cards')
 
-new Glider(carousel,{
-    slidesToShow: 1,
-    slidesToScroll:2,
-    draggable:true,
-    dots:'.dots',
-    dragVelocity:3.3,
-    scrollLock:true
-})
 
